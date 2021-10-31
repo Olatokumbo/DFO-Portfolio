@@ -19,26 +19,30 @@ const About = () => {
               <h1 className="text-center">WILLIAM POLLARD</h1>
             </div>
             <h1 className="text-xs md:text-sm leading-5 mx-auto w-auto md:w-96">
-              As a start, I grew up in a small town in the Philippines. Ever
-              since I was young, I have always been so fascinated with
-              technology. It has always been a goal of mine to actually develop
-              something useful that would at some point reach various people all
-              over the world. Furthermore, I gotta say that this goal really
-              fueled my interests in the field of software engineering because
-              nowadays almost everything that we actually interact with on a
-              daily basis is running on some sort of software. However, I
-              decided to focus my attention in the area of web development
-              because that was something that I have always been so fascinated
-              about. So now as a self-taught web developer with over 2 years
-              experience, it has always been a great privilege for me to work
-              with clients on varying projects knowing that my projects are
+              Ever since I have always been so fascinated with technology. It
+              has always been a goal of mine to develop something useful that
+              would at some point reach various people all over the world.
+              Furthermore, I have to say that this goal fueled my interests in the
+              field of software engineering because nowadays almost everything
+              that we interact with daily is running on some sort of software.
+              However, I decided to focus my attention in the area of web
+              development because that was something that I have always been so
+              fascinated about. So now as a self-taught web developer with over
+              2 years experience, it has always been a great privilege for me to
+              work with clients on varying projects knowing that my projects are
               being used by others.
             </h1>
             <h1 className="mt-4 text-xs md:text-sm leading-5 mx-auto w-auto md:w-96">
-              As a developer, I always try my absolute best to keep myself
-              updated on the latest software trends or frameworks; I would say
-              that this has really helped me to become better software
-              developer.
+              As a developer, I have worked with various web and mobile app
+              technologies such as{" "}
+              <span className="text-yellow-400">ReactJS</span>,{" "}
+              <span className="text-yellow-400">ReactNative</span>,{" "}
+              <span className="text-yellow-400">NodeJS</span>,{" "}
+              <span className="text-yellow-400">TailwindCSS</span>,{" "}
+              <span className="text-yellow-400">SCSS</span>,{" "}
+              <span className="text-yellow-400">Firebase</span>,{" "}
+              <span className="text-yellow-400">SQL</span>,{" "}
+              <span className="text-yellow-400">MongoDB</span> and much more.
             </h1>
           </div>
         </Fade>
