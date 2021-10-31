@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import About from "../sections/About";
 import Header from "../sections/Header";
 import Project from "../sections/Project";
-import Footer from "../Components/Footer";
+import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
 import Contact from "../sections/Contact";
 
