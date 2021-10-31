@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -21,7 +22,9 @@ const Navbar = () => {
         (navbar && "bg-black bg-opacity-60")
       }
     >
-      <img src="/david_logo.png" alt="david0" className="h-auto w-20" />
+      <div className="h-5 w-20 relative">
+        <Image layout="fill" objectFit="cover" src="/david_logo.png" alt="david0" />
+      </div>
       <div className="flex">
         <button
           onClick={() => window.open("https://github.com/Olatokumbo", "_blank")}

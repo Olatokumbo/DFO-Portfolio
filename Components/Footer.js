@@ -1,7 +1,15 @@
+import Image from "next/image";
 const Footer = () => {
   return (
     <div className="bg-black flex flex-col items-center justify-center p-10">
-      <img className="w-20 h-auto" src="david_logo.png" alt="logo" />
+      <div className="w-20 h-5 relative mb-2">
+        <Image
+          layout="fill"
+          objectFit="cover"
+          src="/david_logo.png"
+          alt="logo"
+        />
+      </div>
       <h1 className="text-center text-sm text-gray-600">
         © 2021 david0 | All Rights Reserved
       </h1>

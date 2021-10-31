@@ -1,8 +1,17 @@
+import Image from "next/image";
+
 const ProjectCard = ({ photo, title, description, url }) => {
   return (
     <div className="flex flex-col w-full bg-gray-800 rounded-2xl shadow-md">
       <div>
-        <img className="rounded-t-lg h-40 w-full object-cover" src={photo} alt="Project card" />
+        <div className="rounded-t-lg h-40 w-full object-cover relative overflow-hidden">
+          <Image
+            layout="fill"
+            // objectFit="cover"
+            src={photo}
+            alt="Project card"
+          />
+        </div>
       </div>
       <div className=" flex-1 py-2 px-4 flex flex-col justify-between">
         <div>
@@ -11,7 +20,10 @@ const ProjectCard = ({ photo, title, description, url }) => {
             {description}
           </h1>
         </div>
-        <button onClick={()=>window.open(url, "_blank")} className="w-min bg-yellow-500 hover:bg-yellow-400 text-white font-light border-4 border-yellow-600 text-sm my-3 py-1 px-4 rounded-full">
+        <button
+          onClick={() => window.open(url, "_blank")}
+          className="w-min bg-yellow-500 hover:bg-yellow-400 text-white font-light border-4 border-yellow-600 text-sm my-3 py-1 px-4 rounded-full"
+        >
           Explore
         </button>
       </div>
