@@ -2,7 +2,7 @@ const ProjectCard = ({ photo, title, description, url }) => {
   return (
     <div className="flex flex-col w-full bg-gray-800 rounded-2xl shadow-md">
       <div>
-        <img className="rounded-t-lg h-40 w-full object-cover" src={photo} />
+        <img className="rounded-t-lg h-40 w-full object-cover" src={photo} alt="Project card" />
       </div>
       <div className=" flex-1 py-2 px-4 flex flex-col justify-between">
         <div>
