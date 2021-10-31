@@ -51,7 +51,7 @@ const About = () => {
             <img
               className="rounded-lg -right-0 relative md:-right-36 md:absolute filter saturate-200 max-w-none md:max-w-md lg:max-w-2xl w-fill h-auto mx-5 shadow-lg"
               src="/me.jpg"
-              alt=""
+              alt="Me"
             />
           </div>
         </Fade>
