@@ -12,6 +12,7 @@ const Contact = () => {
         <h1 className="text-2xl md:text-3xl font-bold text-gray-300">
           &lt; Contact me /&gt;
         </h1>
+        <h1 className="text-gray-500  font-semibold">⚠️⚠️ Under Construction ⚠️⚠️</h1>
         <div className="w-full md:w-11/12 mx-auto">
           <Fade right duration={900} distance="100px" cascade>
             <form className="pr-0 md:pr-4 lg:pr-8 pt-6 pb-2 mt-8 mb-3">
