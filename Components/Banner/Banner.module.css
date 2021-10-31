@@ -1,0 +1,23 @@
+.banner {
+  width: 100%;
+  position: absolute;
+  bottom: -396px;
+  right: 0;
+  transform: skewY(315deg);
+}
+
+.banner_item_1 {
+  width: 100%;
+  background-color: blue;
+  height: 5rem;
+}
+.banner_item_2 {
+  width: 100%;
+  background-color: rgb(0, 255, 234);
+  height: 10rem;
+}
+.banner_item_3 {
+  width: 100%;
+  background-color: rgb(157, 255, 0);
+  height: 17rem;
+}
