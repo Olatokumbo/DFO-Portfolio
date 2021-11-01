@@ -7,7 +7,7 @@ const ProjectCard = ({ photo, title, description, url }) => {
         <div className="rounded-t-lg h-40 w-full object-cover relative overflow-hidden">
           <Image
             layout="fill"
-            // objectFit="cover"
+            objectFit="cover"
             src={photo}
             alt="Project card"
           />

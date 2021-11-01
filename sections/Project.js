@@ -36,6 +36,18 @@ COVID-19 pandemic. It also includes various charts and maps to well visualize th
           description="ThumbShare is a web app that lets its users share various photos with family and friends
 online"
         />
+        <ProjectCard
+          photo="/jfo.png"
+          url="https://www.jfodesola.com"
+          title="JfOdesola"
+          description="The Official site for Pastor Johnson Funso Odesola"
+        />
+        <ProjectCard
+          photo="/rccg-map.png"
+          url="https://rccg-lp8.vercel.app"
+          title="RCCG LP8 Map"
+          description="This site displays all the RCCG parishes under Lagos Province 8 including their corresponding info and location"
+        />
       </div>
     </div>
   );
