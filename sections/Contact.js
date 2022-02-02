@@ -57,11 +57,7 @@ const Contact = () => {
             </form>
           </Fade>
           <hr className="bg-gray-700 h-px border-0" />
-          <div className="flex justify-between w-full my-4">
-            <div>
-              <h1 className="text-white">CALL</h1>
-              <h1 className="text-gray-400 text-sm">+(44) 7404473046</h1>
-            </div>
+          <div className="flex w-full my-4">
             <div>
               <h1 className="text-white">EMAIL</h1>
               <h1 className="text-gray-400 text-sm">faithodesola@gmail.com</h1>
