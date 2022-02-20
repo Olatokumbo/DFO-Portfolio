@@ -11,7 +11,7 @@ const Footer = () => {
         />
       </div>
       <h1 className="text-center text-sm text-gray-600">
-        © 2021 david0 | All Rights Reserved
+        © {new Date().getFullYear()} david0 | All Rights Reserved
       </h1>
     </div>
   );
