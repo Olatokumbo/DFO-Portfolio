@@ -48,6 +48,12 @@ online"
           title="RCCG LP8 Map"
           description="This site displays all the RCCG parishes under Lagos Province 8 including their corresponding info and location"
         />
+        <ProjectCard
+          photo="/gameflix.png"
+          url="https://github.com/Olatokumbo/Gameflix"
+          title="Gameflix"
+          description="Gameflix is a video game review mobile app where users can review various games of different genres"
+        />
       </div>
     </div>
   );
