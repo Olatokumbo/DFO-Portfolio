@@ -54,6 +54,12 @@ online"
           title="Gameflix"
           description="Gameflix is a video game review mobile app where users can review various games of different genres"
         />
+        <ProjectCard
+          photo="/scriptroom.png"
+          url="https://scriptroom.vercel.app"
+          title="Scriptroom"
+          description="Scriptroom is a platform where users can both share and find scripts of all types and genres"
+        />
       </div>
     </div>
   );
